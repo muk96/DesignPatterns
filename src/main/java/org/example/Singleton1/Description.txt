@@ -1,0 +1,15 @@
+Implement a Singleton class that maintains a count of the number of objects created.
+
+- In object-oriented programming, a Singleton class is a design pattern that restricts the instantiation of
+  a class to a single instance and provides a global point of access to it. This means that there can only be
+  one object of the Singleton class in the entire system, and any attempts to create another object should result
+  in the same instance being returned.
+
+  The problem here is to implement a Singleton class that maintains a count of the number of objects created.
+  This count should be accessible to any part of the system, but it should not be possible to create multiple
+  instances of the Singleton class. The goal is to ensure that there is only one instance of the class, while
+  also keeping track of how many times it has been instantiated.
+
+  This problem is interesting because it requires not only implementing the Singleton pattern but also maintaining
+  a count of the number of objects created. It also requires careful consideration of thread-safety and the potential
+  for race conditions in multi-threaded environments.

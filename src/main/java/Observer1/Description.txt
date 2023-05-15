@@ -1,0 +1,3 @@
+Implement a weather application that uses the Observer pattern
+to notify subscribers of changes in temperature, pressure and humidity. (From Head First Design Patterns)
+
